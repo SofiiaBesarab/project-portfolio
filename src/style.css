@@ -105,6 +105,24 @@ p {
   font-family: var(--default-font-family);
 }
 
+nav li {
+  display: inline;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142b2;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
+nav {
+  padding: 15px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
@@ -127,5 +145,9 @@ p {
   .content {
     text-align: center;
     padding: 0;
+  }
+
+  nav li {
+    text-align: center;
   }
 }
