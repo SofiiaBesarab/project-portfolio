@@ -23,6 +23,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -59,6 +63,11 @@ p {
   padding: 12px 40px;
 }
 
+.btn-branding:hover {
+  background: var(--branding-color);
+  color: black;
+}
+
 .btn-branding-outline {
   border-radius: 4px;
   font-size: 18px;
@@ -66,6 +75,11 @@ p {
   padding: 12px 20px;
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
+}
+
+.btn-branding-outline:hover {
+  color: black;
+  border: 1px solid black;
 }
 
 .project-description {
@@ -121,6 +135,33 @@ nav a:hover {
 
 nav {
   padding: 15px;
+}
+
+footer .email-link {
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 30px;
+  color: var(--branding-color);
+  font-size: 30px;
+}
+
+footer .contact-box {
+  background: #f9f7fe;
+  padding: 40px 90px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 @media (max-width: 900px) {
