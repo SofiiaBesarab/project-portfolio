@@ -188,6 +188,19 @@ footer .contact-box p {
     padding: 0;
   }
 
+  .content-container {
+    padding: 0 20px;
+  }
+
+  .my-photo {
+    padding: 60px 20px;
+  }
+
+  .content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
   nav li {
     text-align: center;
   }
